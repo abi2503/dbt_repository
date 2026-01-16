@@ -3,7 +3,7 @@
 ) }}
 select
     id,
-    first_name,
+    upper(first_name) as first_name,
     last_name,
     email,
     created_at
